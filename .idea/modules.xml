@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mediscreen.iml" filepath="$PROJECT_DIR$/Mediscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/history-service/history-service.iml" filepath="$PROJECT_DIR$/history-service/history-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patient-service/patient-service.iml" filepath="$PROJECT_DIR$/patient-service/patient-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/report-service/report-service.iml" filepath="$PROJECT_DIR$/report-service/report-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-service/ui-service.iml" filepath="$PROJECT_DIR$/ui-service/ui-service.iml" />
+    </modules>
+  </component>
+</project>

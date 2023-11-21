@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "$oid": "64b3369f1ee44c56b7d15a90"
+  },
+  "patientId": 1,
+  "note": "Patient states that they are \"feeling terrific\"\r\nWeight at or below recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b336c71ee44c56b7d15a91"
+  },
+  "patientId": 1,
+  "note": "Patient states that they feel tired during the day\r\nPatient also complains about muscle aches\r\nLab reports Microalbumin elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b336d21ee44c56b7d15a92"
+  },
+  "patientId": 1,
+  "note": "Patient states that they not feeling as tired\r\nSmoker, quit within last year\r\nLab results indicate Antibodies present elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33a371ee44c56b7d15a93"
+  },
+  "patientId": 2,
+  "note": "Patient states that they are feeling a great deal of stress at work\r\nPatient also complains that their hearing seems Abnormal as of late",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33a491ee44c56b7d15a94"
+  },
+  "patientId": 2,
+  "note": "Patient states that they have had a Reaction to medication within last 3 months\r\nPatient also complains that their hearing continues to be Abnormal\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33a541ee44c56b7d15a95"
+  },
+  "patientId": 2,
+  "note": "Patient states that everything seems fine\r\nLab reports Hemoglobin A1C above recommended level\r\nPatient admits to being long term Smoker\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33a7e1ee44c56b7d15a96"
+  },
+  "patientId": 2,
+  "note": "Lab reports Microalbumin elevated",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33acf1ee44c56b7d15a97"
+  },
+  "patientId": 3,
+  "note": "Patient states that they are short term Smoker",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33ad61ee44c56b7d15a98"
+  },
+  "patientId": 3,
+  "note": "Lab reports Microalbumin elevated",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33ae91ee44c56b7d15a99"
+  },
+  "patientId": 3,
+  "note": "Patient states that they are a Smoker, quit within last year\r\nPatient also complains that of Abnormal breathing spells\r\nLab reports Cholesterol LDL high\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33af71ee44c56b7d15a9a"
+  },
+  "patientId": 3,
+  "note": "Lab reports Cholesterol LDL high",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33b521ee44c56b7d15a9b"
+  },
+  "patientId": 4,
+  "note": "Patient states that walking up stairs has become difficult\r\nPatient also complains that they are having shortness of breath\r\nLab results indicate Antibodies present elevated\r\nReaction to medication\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33b631ee44c56b7d15a9c"
+  },
+  "patientId": 4,
+  "note": "Patient states that they are experiencing back pain when seated for a long time\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33b711ee44c56b7d15a9d"
+  },
+  "patientId": 4,
+  "note": "Patient states that they are a short term Smoker\r\nHemoglobin A1C above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33c071ee44c56b7d15a9e"
+  },
+  "patientId": 5,
+  "note": "Patient states that they experiencing occasional neck pain\r\nPatient also complains that certain foods now taste different\r\nApparent Reaction to medication\r\nBody Weight above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33ed41ee44c56b7d15aa2"
+  },
+  "patientId": 5,
+  "note": "Patient states that they had multiple dizziness episodes since last visit\r\nBody Height within concerned level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33edf1ee44c56b7d15aa3"
+  },
+  "patientId": 5,
+  "note": "Patient states that they are still experiencing occaisional neck pain\r\nLab reports Microalbumin elevated\r\nSmoker, quit within last year\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b33ee71ee44c56b7d15aa4"
+  },
+  "patientId": 5,
+  "note": "Patient states that they had multiple dizziness episodes since last visit\r\nLab results indicate Antibodies present elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b340d81ee44c56b7d15aa5"
+  },
+  "patientId": 6,
+  "note": "Patient states that they feel fine\r\nBody Weight above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b340e61ee44c56b7d15aa6"
+  },
+  "patientId": 6,
+  "note": "Patient states that they feel fine",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b361071ee44c56b7d15aa7"
+  },
+  "patientId": 7,
+  "note": "Patient states that they often wake with stiffness in joints\r\nPatient also complains that they are having difficulty sleeping\r\nBody Weight above recommended level\r\nLab reports Cholesterol LDL high\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362111ee44c56b7d15aa8"
+  },
+  "patientId": 8,
+  "note": "Lab results indicate Antibodies present elevated\r\nHemoglobin A1C above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362491ee44c56b7d15aa9"
+  },
+  "patientId": 9,
+  "note": "Patient states that they are having trouble concentrating on school assignments\r\nHemoglobin A1C above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362581ee44c56b7d15aaa"
+  },
+  "patientId": 9,
+  "note": "Patient states that they frustrated as long wait times\r\nPatient also complains that food in the vending machine is sub-par\r\nLab reports Abnormal blood cell levels\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362661ee44c56b7d15aab"
+  },
+  "patientId": 9,
+  "note": "Patient states that they are easily irritated at minor things\r\nPatient also complains that neighbors vacuuming is too loud\r\nLab results indicate Antibodies present elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362871ee44c56b7d15aac"
+  },
+  "patientId": 10,
+  "note": "Patient states that they are not experiencing any problems",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362921ee44c56b7d15aad"
+  },
+  "patientId": 10,
+  "note": "Patient states that they are not experiencing any problems\r\nBody Height within concerned level\r\nHemoglobin A1C above recommended level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b3629f1ee44c56b7d15aae"
+  },
+  "patientId": 10,
+  "note": "Patient states that they are not experiencing any problems\r\nBody Weight above recommended level\r\nPatient reports multiple dizziness episodes since last visit\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b362ac1ee44c56b7d15aaf"
+  },
+  "patientId": 10,
+  "note": "Patient states that they are not experiencing any problems\r\nLab reports Microalbumin elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b363a9186103111a66a0ac"
+  },
+  "patientId": 14,
+  "note": "Patient states that they have had a Reaction to medication within last 3 months\r\nPatient also complains that their hearing continues to be Abnormal\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b363bc186103111a66a0ad"
+  },
+  "patientId": 14,
+  "note": "Patient states that they feel tired during the day\r\nPatient also complains about muscle aches\r\nLab reports Microalbumin elevated\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b363d0186103111a66a0ae"
+  },
+  "patientId": 14,
+  "note": "Patient states that everything seems fine\r\nLab reports Hemoglobin A1C above recommended level\r\nPatient admits to being long term Smoker\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b363ea186103111a66a0af"
+  },
+  "patientId": 14,
+  "note": "Lab reports Cholesterol LDL high",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+},
+{
+  "_id": {
+    "$oid": "64b3640b186103111a66a0b0"
+  },
+  "patientId": 14,
+  "note": "Patient states that they had multiple dizziness episodes since last visit\r\nBody Height within concerned level\r\n",
+  "date": {
+    "$date": "2023-07-15T06:00:00.000Z"
+  },
+  "_class": "com.mediscreen.historyservice.model.Note"
+}]

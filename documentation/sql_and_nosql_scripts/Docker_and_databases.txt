@@ -1,0 +1,7 @@
+MySQL container
+patientService.sql will be automatically added to mysql container, and a database with appropriate tables will be created as well. Tables will be automatically populated with data.
+
+NoSQL container
+After creating the NoSQL container, port 28000 will be available for manually inserting a file history_service_note.json into the database.
+Create a database with name: history_service;
+Collection name: note;

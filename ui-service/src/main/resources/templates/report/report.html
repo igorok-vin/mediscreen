@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mediscreen</title>
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="col-10 container-fluid">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/img/logo.png" alt="" style="height: 7em">
+                </div>
+                <div class="col-auto">
+                    <a class="navbar-brand text-black" href="/">MEDISCREEN</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row m-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100 m-0 mb-5">
+                <div class="container-fluid" style="display: flex;    justify-content: space-between;">
+                    <button data-tooltip="Return to previous page" class="backward-btn" onclick="history.back()">
+                        <img style="width: 35px;" src="/img/fast-backward.gif"/>
+                    </button>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="/patient/list">PATIENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="report_main">
+            <div class="note" style="width: 40%;">
+                <div class="title_table">
+                    <h3 class="table-title" style="display: flex; justify-content: center; padding-bottom: 30px;">Patient report</h3>
+                </div>
+            </div>
+
+            <div class="note-list-table">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                        <td>DOB</td>
+                        <td>Age</td>
+                        <td>Gender</td>
+                        <td>Address</td>
+                        <td>Phone</td>
+                        <td>Diabetes test result based on doctor notes</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="patient: ${patientUI}">
+                        <td><span th:text="${patient.firstName}"></span></td>
+                        <td><span th:text="${patient.lastName}"></span></td>
+                        <td><span th:text="${patient.dob}"></span></td>
+                        <td><span th:text="${patient.age}"></span></td>
+                        <td><span th:text="${patient.gender}"></span></td>
+                        <td><span th:text="${patient.address}"></span></td>
+                        <td><span th:text="${patient.phoneNumber}"></span></td>
+                        <td><span th:text="${report}"></span></td>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

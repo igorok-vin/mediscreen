@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mediscreen</title>
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+        <div class="col-10 container-fluid">
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="/img/logo.png" alt="" style="height: 7em">
+                    </div>
+                    <div class="col-auto">
+                        <a class="navbar-brand text-black" href="/">MEDISCREEN</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row m-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100 m-0 mb-5">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="/patient/list.html" th:href="@{/page/1}">PATIENTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="row m-0">
+                <div class="col-3">
+                    <h2 class="table-title" style="font-size: 1.5em">We care.</h2>
+                    <div>
+                        <p style="font-size: 1.3em">
+                            Mediscreen specialises in detecting ris factors for disease.
+                            Our screenings using predictive analysis of patient populations at an affordable cost.
+                        </p>
+                        <ul style="font-size: 1.3em">
+                            <li>Are you small or rural clinic practice</li>
+                            <li>Do you need screenings for heart disease or hyper tension percusors</li>
+                        </ul>
+                    </div>
+                    <p class="table-title" style="font-size: 1.5em"> We have a solution for you</p>
+                </div>
+                <div class="col-9">
+                    <img src="/img/img.png" alt="" style="height: 30em">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
