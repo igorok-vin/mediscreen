@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "b7da3799-9e41-4cc1-93f1-8fca174b8e32",
+		"name": "MEDISCREEN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13308459"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8071/patient/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8071/patient/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"list"
+					]
+				},
+				"description": "get a paginated patient list"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8071/patient/list/Rees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8071/patient/list/Rees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"list",
+						"Rees"
+					]
+				},
+				"description": "get list of patients by last name"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8071/patient/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8071/patient/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8071/patient/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\": \"Ron\",\r\n\"lastName\":\"Black\",\r\n\"dob\":\"1989-10-21\",\r\n\"gender\":\"Male\",\r\n\"address\":\"2632 Wright Court\",\r\n\"phoneNumber\":\"333-333-3333\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8071/patient/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"add"
+					]
+				},
+				"description": "create patient"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8071/patient/update/17",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\": \"Ron\",\r\n\"lastName\":\"Wezlie\",\r\n\"dob\":\"1985-10-21\",\r\n\"gender\":\"Male\",\r\n\"address\":\"2784 London Ave\",\r\n\"phoneNumber\":\"555-888-8888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8071/patient/update/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"update",
+						"17"
+					]
+				},
+				"description": "update patient"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8071/patient/delete/17",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8071/patient/delete/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8071",
+					"path": [
+						"patient",
+						"delete",
+						"17"
+					]
+				},
+				"description": "delete patient"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/patHistory/note/64b33a371ee44c56b7d15a93",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8072/patHistory/note/64b33a371ee44c56b7d15a93",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"patHistory",
+						"note",
+						"64b33a371ee44c56b7d15a93"
+					]
+				},
+				"description": "get note by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/patHistory/patient/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8072/patHistory/patient/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"patHistory",
+						"patient",
+						"2"
+					]
+				},
+				"description": "find list of notes by patient id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/patHistory/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"patientId\": \"16\",\r\n\"note\": \"Everything is fine, the patient is feeling better\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8072/patHistory/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"patHistory",
+						"add"
+					]
+				},
+				"description": "save note"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/patHistory/update/655c2062bca11d4f95594231",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": \"655c2062bca11d4f95594231\",\r\n        \"patientId\": 16,\r\n        \"note\": \"Everything is fine, the patient is feeling better. The patient started smoking.\",\r\n        \"date\": \"2023-11-21\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8072/patHistory/update/655c2062bca11d4f95594231",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"patHistory",
+						"update",
+						"655c2062bca11d4f95594231"
+					]
+				},
+				"description": "update note"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/patHistory/delete/655c2062bca11d4f95594231",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8072/patHistory/delete/655c2062bca11d4f95594231",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"patHistory",
+						"delete",
+						"655c2062bca11d4f95594231"
+					]
+				},
+				"description": "delete note"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8073/assess/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8073/assess/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8073",
+					"path": [
+						"assess",
+						"5"
+					]
+				},
+				"description": "get patient report by patient id"
+			},
+			"response": []
+		}
+	]
+}

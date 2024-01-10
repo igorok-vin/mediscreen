@@ -1,0 +1,54 @@
+.bg-primary {
+    background-color: #189AB4 !important
+}
+
+.btn-primary {
+    border-color: #189AB4;
+    color: white;
+    background-color: #189AB4;
+}
+
+* {
+    font-family: 'Product sans', sans-serif;
+}
+
+thead {
+    background-color: #189AB4;
+    opacity: 0.8;
+    color: white;
+}
+.table-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #189AB4;
+    font-weight: bold;
+}
+
+.note_main {
+    display: flex;
+    justify-content: center;
+}
+
+.report_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-table-note-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.serch-block {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.serch-block-button {
+    margin-left: 10px;
+}
+

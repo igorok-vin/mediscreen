@@ -1,0 +1,109 @@
+version: '3.9'
+name: mediscreen
+
+services:
+  history-service:
+    container_name: history-service
+    build:
+      context: ./history-service
+      dockerfile: Dockerfile
+    ports:
+      - "8072:8072"
+    depends_on:
+      - database-mongo
+      - patient-service
+    environment:
+      - SPRING_DATA_MONGODB_.HOST=database-mongo
+    restart: always
+    networks:
+      - medinet
+
+  patient-service:
+    container_name: patient-service
+    build:
+       context: ./patient-service
+       dockerfile: Dockerfile
+    ports:
+       - "8071:8071"
+    depends_on:
+       - database-mysql
+    environment:
+       SPRING_DATASOURCE_URL: jdbc:mysql://database-mysql:3306/patient_service?allowPublicKeyRetrieval=true&useSSL=false
+       SPRING_DATASOURCE_USERNAME: root
+       SPRING_DATASOURCE_PASSWORD: password
+    restart: always
+    networks:
+      - medinet
+
+  database-mysql:
+    container_name: database-mysql
+    build:
+      context: ./db-docker
+      dockerfile: Dockerfile
+    ports:
+      - "3308:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=patient_service
+    restart: always
+    volumes:
+      - mediscreenSavedDataMySQL:/var/lib/mysql
+      - ./db-docker:/docker-entrypoint-initdb.d
+    networks:
+      - medinet
+
+  report-service:
+    container_name: report-service
+    environment:
+      - patients-service-url=http://patient-service:8071
+      - history-service-url=http://history-service:8072
+    build:
+       context: ./report-service
+       dockerfile: Dockerfile
+    ports:
+       - "8073:8073"
+    depends_on:
+       - patient-service
+       - history-service
+    restart: always
+    networks:
+      - medinet
+
+  ui-service:
+    container_name: ui-service
+    environment:
+      - patients-service-url=http://patient-service:8071
+      - history-service-url=http://history-service:8072
+      - report-service-urlL=http://report-service:8073
+    build:
+       context: ./ui-service
+       dockerfile: Dockerfile
+    depends_on:
+       - history-service
+       - patient-service
+       - report-service
+    ports:
+       - "8070:8070"
+    restart: always
+    networks:
+      - medinet
+
+  database-mongo:
+    image: mongo
+    container_name: database-mongo
+    hostname: database-mongo
+    restart: always
+    expose:
+      - 27017
+    ports:
+       - "28000:27017"
+    volumes:
+       - ./data:/data/db
+    networks:
+      - medinet
+
+volumes:
+  mediscreenSavedDataMySQL:
+networks:
+   medinet:
+     driver: bridge

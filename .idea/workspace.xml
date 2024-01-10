@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6d30bc1-fc3f-4d2e-b992-3bcf5d538162" name="Changes" comment="project9" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/controller/NoteController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/model/AppError.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/model/Note.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/service/INoteService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/service/NoteService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/java/com/mediscreen/historyservice/utils/GlobalExceptionHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/resources/application-dev.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/history-service/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/patient-service/src/main/java/com/mediscreen/patientservice/controller/PatientController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/patient-service/src/main/java/com/mediscreen/patientservice/model/Patient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/patient-service/src/main/java/com/mediscreen/patientservice/service/PatientService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/UiServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/config/FeignClientConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/controller/PatientController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/proxy/PatientProxy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/service/PatientService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ui-service/src/main/resources/templates/patient/update.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QrZwzNjQcgnhHuNvf8TqtPrJo9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/prog_web/prog/Project 9/practice/mycode/prod/Mediscreen&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a6d7635275bcabdb50ab99a7aaec1b4f&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen\history-service\src\main\resources" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\ui-service\src\main\resources\templates\patient" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\report-service\src\main\java\com\mediscreen\reportservice" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\patient-service\src\test\resources" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\patient-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen\patient-service" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen\history-service\src\main\resources" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\report-service\src\main\resources" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\Mediscreen\db-docker" />
+      <recent name="D:\prog_web\prog\Project 9\practice\mycode\development\New folder\Mediscreen\patient-service\db_docker" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.mediscreen.uiservice.service" />
+      <recent name="com.mediscreen.reportservice.service" />
+      <recent name="com.mediscreen.historyservice.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mediscreen.patientservice.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mediscreen.uiservice.model" />
+      <recent name="com.mediscreen.uiservice.utils" />
+      <recent name="com.mediscreen.reportservice.model" />
+      <recent name="com.mediscreen.reportservice.utils" />
+      <recent name="com.mediscreen.historyservice.model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="All in patient-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="patient-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ui-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mediscreen in report-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="report-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mediscreen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mediscreen" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mediscreen.historyservice in history-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="history-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mediscreen.historyservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mediscreen.historyservice" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="history-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mediscreen.historyservice.HistoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="patient-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mediscreen.patientservice.PatientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="report-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mediscreen.reportservice.ReportServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UiServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ui-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mediscreen.uiservice.UiServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="JUnit.All in patient-service" />
+      <item itemvalue="JUnit.All in ui-service" />
+      <item itemvalue="JUnit.com.mediscreen in report-service" />
+      <item itemvalue="JUnit.com.mediscreen.historyservice in history-service" />
+      <item itemvalue="Spring Boot.UiServiceApplication" />
+      <item itemvalue="Spring Boot.ReportServiceApplication" />
+      <item itemvalue="Spring Boot.HistoryServiceApplication" />
+      <item itemvalue="Spring Boot.PatientServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.com.mediscreen.historyservice in history-service" />
+        <item itemvalue="JUnit.All in ui-service" />
+        <item itemvalue="JUnit.com.mediscreen in report-service" />
+        <item itemvalue="JUnit.All in patient-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6d30bc1-fc3f-4d2e-b992-3bcf5d538162" name="Changes" comment="" />
+      <created>1686113904423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686113904423</updated>
+      <workItem from="1686113905862" duration="21230000" />
+      <workItem from="1686457136477" duration="21057000" />
+      <workItem from="1686802292049" duration="3425000" />
+      <workItem from="1686878497355" duration="20461000" />
+      <workItem from="1687046285799" duration="13134000" />
+      <workItem from="1687234601459" duration="33811000" />
+      <workItem from="1687482117772" duration="58247000" />
+      <workItem from="1688158331283" duration="135833000" />
+      <workItem from="1689212158128" duration="57625000" />
+      <workItem from="1689647258735" duration="925000" />
+      <workItem from="1689648732267" duration="7042000" />
+      <workItem from="1689656633616" duration="84000" />
+      <workItem from="1689657727339" duration="3212000" />
+      <workItem from="1689727488874" duration="36918000" />
+      <workItem from="1690248486564" duration="127569000" />
+      <workItem from="1691539625889" duration="3303000" />
+      <workItem from="1691629664939" duration="58612000" />
+      <workItem from="1691897055832" duration="14786000" />
+      <workItem from="1692921703666" duration="17635000" />
+      <workItem from="1693009845309" duration="15005000" />
+      <workItem from="1695254866657" duration="11665000" />
+      <workItem from="1695268924885" duration="4055000" />
+      <workItem from="1695344654643" duration="2896000" />
+      <workItem from="1695442326179" duration="1884000" />
+      <workItem from="1695696081123" duration="1877000" />
+      <workItem from="1696641802985" duration="4980000" />
+      <workItem from="1696646874463" duration="5540000" />
+      <workItem from="1696881110247" duration="6033000" />
+      <workItem from="1697247438640" duration="9327000" />
+      <workItem from="1697450957099" duration="40000" />
+      <workItem from="1698516203644" duration="1480000" />
+      <workItem from="1698803106175" duration="13853000" />
+      <workItem from="1698980807661" duration="846000" />
+      <workItem from="1699330712543" duration="3547000" />
+      <workItem from="1699491785174" duration="10194000" />
+      <workItem from="1700062482996" duration="758000" />
+      <workItem from="1700531000222" duration="10540000" />
+      <workItem from="1700932322838" duration="6193000" />
+      <workItem from="1704774393694" duration="1826000" />
+      <workItem from="1704846523726" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="Notes almost done">
+      <created>1688789784047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688789784047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="project9">
+      <created>1697427932592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697427932592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project9">
+      <created>1697428217185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697428217185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="project9">
+      <created>1697435499933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697435499933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="project9">
+      <created>1699493083388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699493083388</updated>
+    </task>
+    <task id="LOCAL-00006" summary="project9">
+      <created>1699493926127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699493926127</updated>
+    </task>
+    <task id="LOCAL-00007" summary="project9">
+      <created>1699504078778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699504078778</updated>
+    </task>
+    <task id="LOCAL-00008" summary="project9">
+      <created>1700544167682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700544167682</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/history-service" />
+      <path value="$PROJECT_DIR$/patient-service" />
+      <path value="$PROJECT_DIR$/report-service" />
+      <path value="$PROJECT_DIR$/ui-service" />
+    </ignored-roots>
+    <MESSAGE value="Notes almost done" />
+    <MESSAGE value="project9" />
+    <option name="LAST_COMMIT_MESSAGE" value="project9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.attoparser.ParseException" package="org.attoparser" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ui-service/src/main/java/com/mediscreen/uiservice/controller/NoteController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_getPatientsByLastNameTest.ic" NAME="PatientControllerTest.getPatientsByLastNameTest Coverage Results" MODIFIED="1690345258476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_displayPatientFormTest.ic" NAME="PatientControllerTest.displayPatientFormTest Coverage Results" MODIFIED="1690691857797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_createNoteTest.ic" NAME="NoteControllerTest.createNoteTest Coverage Results" MODIFIED="1690865750759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleLessThan30And5Triggers_ThenReportResultInDangerTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleLessThan30And5Triggers_ThenReportResultInDangerTest Coverage Results" MODIFIED="1690422709569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getListNotesByPatientIdTest.ic" NAME="ReportServiceTest.getListNotesByPatientIdTest Coverage Results" MODIFIED="1690419914083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_getPatientByIdTest.ic" NAME="PatientControllerTest.getPatientByIdTest Coverage Results" MODIFIED="1690344056457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_updatePatientWhenBirthdateExceptionTest.ic" NAME="PatientServiceTest.updatePatientWhenBirthdateExceptionTest Coverage Results" MODIFIED="1690337966338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_searchPatientByLastNameWithPageNumber.ic" NAME="PatientControllerTest.searchPatientByLastNameWithPageNumber Coverage Results" MODIFIED="1690854390473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_createPatientWhenBirthdateExceptionTest.ic" NAME="UIServiceTest.createPatientWhenBirthdateExceptionTest Coverage Results" MODIFIED="1695266238257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_updateNoteTest.ic" NAME="PatientServiceTest.updateNoteTest Coverage Results" MODIFIED="1690337270394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_updatePatientWhenBirthdateExceptionTest.ic" NAME="UIServiceTest.updatePatientWhenBirthdateExceptionTest Coverage Results" MODIFIED="1695266302845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_createNoteAndFormHasErrorTest.ic" NAME="NoteControllerTest.createNoteAndFormHasErrorTest Coverage Results" MODIFIED="1690865787253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_deleteNoteByIdTest.ic" NAME="PatientServiceTest.deleteNoteByIdTest Coverage Results" MODIFIED="1690340153891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleLessThan30And0Triggers_ThenReportResultNoneTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleLessThan30And0Triggers_ThenReportResultNoneTest Coverage Results" MODIFIED="1690423087791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleGreaterThan30And8Triggers_ThenReportResultEarlyOnSetTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleGreaterThan30And8Triggers_ThenReportResultEarlyOnSetTest Coverage Results" MODIFIED="1690422266195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_createPatientWhenBirthdateException1Test.ic" NAME="PatientControllerTest.createPatientWhenBirthdateException1Test Coverage Results" MODIFIED="1690586951757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_getPatientNameByIdTest.ic" NAME="UIServiceTest.getPatientNameByIdTest Coverage Results" MODIFIED="1690511902341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest.ic" NAME="PatientControllerTest Coverage Results" MODIFIED="1690418800178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_searchPatientByLastNameTest.ic" NAME="PatientControllerTest.searchPatientByLastNameTest Coverage Results" MODIFIED="1690855553133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest.ic" NAME="PatientServiceTest Coverage Results" MODIFIED="1690336000978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleLessThan30And8Triggers_ThenReportResultEarlyOnSetTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleLessThan30And8Triggers_ThenReportResultEarlyOnSetTest Coverage Results" MODIFIED="1690423588242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_getPatientsByLastName.ic" NAME="PatientServiceTest.getPatientsByLastName Coverage Results" MODIFIED="1690340163199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_updateNoteTest.ic" NAME="PatientControllerTest.updateNoteTest Coverage Results" MODIFIED="1690344506246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_getPatientsTest.ic" NAME="PatientServiceTest.getPatientsTest Coverage Results" MODIFIED="1690336416629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_showAddNotesFormTest.ic" NAME="NoteControllerTest.showAddNotesFormTest Coverage Results" MODIFIED="1690864402370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_getPatientsByLastNameForSearchWhenPatientNotFoundExceptionTest.ic" NAME="UIServiceTest.getPatientsByLastNameForSearchWhenPatientNotFoundExceptionTest Coverage Results" MODIFIED="1690513267691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_updatePatientWhenUpdateFormHasBirthdateExceptionTest.ic" NAME="PatientControllerTest.updatePatientWhenUpdateFormHasBirthdateExceptionTest Coverage Results" MODIFIED="1690691332863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_displayNoteUpdateFormTest.ic" NAME="NoteControllerTest.displayNoteUpdateFormTest Coverage Results" MODIFIED="1690868281417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_displayPatiensUpdateFormTest.ic" NAME="PatientControllerTest.displayPatiensUpdateFormTest Coverage Results" MODIFIED="1690686902097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportControllerTest_getReportByPatientId.ic" NAME="ReportControllerTest.getReportByPatientId Coverage Results" MODIFIED="1690872009183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest.ic" NAME="ReportServiceTest Coverage Results" MODIFIED="1690424220860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_displayPatiensUpdateFormWhenFormHasFieldsErrorsTest.ic" NAME="PatientControllerTest.displayPatiensUpdateFormWhenFormHasFieldsErrorsTest Coverage Results" MODIFIED="1690689515595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleGreaterThan30_ThenReportResultBorderLineTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleGreaterThan30_ThenReportResultBorderLineTest Coverage Results" MODIFIED="1690421589276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleGreaterThan30And0Triggers_ThenReportResultNoneTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleGreaterThan30And0Triggers_ThenReportResultNoneTest Coverage Results" MODIFIED="1690422406323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientMaleLessThan30And6Triggers_ThenReportResultEarlyOnsetTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientMaleLessThan30And6Triggers_ThenReportResultEarlyOnsetTest Coverage Results" MODIFIED="1690424078575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_updateNoteAndFormHasErrorTest.ic" NAME="NoteControllerTest.updateNoteAndFormHasErrorTest Coverage Results" MODIFIED="1690870618496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_pageableListTest.ic" NAME="PatientControllerTest.pageableListTest Coverage Results" MODIFIED="1690696880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_createPatientTest.ic" NAME="PatientServiceTest.createPatientTest Coverage Results" MODIFIED="1690334748219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_createPatientTest.ic" NAME="PatientControllerTest.createPatientTest Coverage Results" MODIFIED="1690687196570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemaleGreaterThan30And6Triggers_ThenReportResultInDangerTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemaleGreaterThan30And6Triggers_ThenReportResultInDangerTest Coverage Results" MODIFIED="1690422275220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_updateNoteTest.ic" NAME="NoteControllerTest.updateNoteTest Coverage Results" MODIFIED="1690870463395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_paginatedTest.ic" NAME="PatientServiceTest.paginatedTest Coverage Results" MODIFIED="1690342178649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientMaleLessThan30And0Triggers_ThenReportResultNoneTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientMaleLessThan30And0Triggers_ThenReportResultNoneTest Coverage Results" MODIFIED="1690424176232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_paginatedTest.ic" NAME="UIServiceTest.paginatedTest Coverage Results" MODIFIED="1690514746291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_createPatientWhenBirthdateExceptionTest.ic" NAME="PatientControllerTest.createPatientWhenBirthdateExceptionTest Coverage Results" MODIFIED="1690685271450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_updatePatientTest.ic" NAME="PatientControllerTest.updatePatientTest Coverage Results" MODIFIED="1690855567700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_deletePatientTest.ic" NAME="PatientControllerTest.deletePatientTest Coverage Results" MODIFIED="1690856785463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_updatePatientWhenUpdateFormHasFieldsErrorsTest.ic" NAME="PatientControllerTest.updatePatientWhenUpdateFormHasFieldsErrorsTest Coverage Results" MODIFIED="1690691287299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientMaleLessThan30And3Triggers_ThenReportResultInDangerTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientMaleLessThan30And3Triggers_ThenReportResultInDangerTest Coverage Results" MODIFIED="1690423713382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_getPatientsByLastNameWhenPatientNotFoundException.ic" NAME="PatientServiceTest.getPatientsByLastNameWhenPatientNotFoundException Coverage Results" MODIFIED="1690340168952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$ReportServiceTest_getReportByPatientId_whenPatientFemale2DaysOldAnd0Triggers_ThenReportResultNoneTest.ic" NAME="ReportServiceTest.getReportByPatientId_whenPatientFemale2DaysOldAnd0Triggers_ThenReportResultNoneTest Coverage Results" MODIFIED="1690423244501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.reportservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_createPatientTest.ic" NAME="UIServiceTest.createPatientTest Coverage Results" MODIFIED="1690511559685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientServiceTest_getNoteByIdWhenNoteNotFoundTest.ic" NAME="PatientServiceTest.getNoteByIdWhenNoteNotFoundTest Coverage Results" MODIFIED="1690336672537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.patientservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_deleteNoteTest.ic" NAME="NoteControllerTest.deleteNoteTest Coverage Results" MODIFIED="1690859947266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$PatientControllerTest_searchPatientByLastNameWithPageNumberWhenPatientNotFoundTest.ic" NAME="PatientControllerTest.searchPatientByLastNameWithPageNumberWhenPatientNotFoundTest Coverage Results" MODIFIED="1690855323057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$UIServiceTest_getPatientsByLastNameForSearchTest.ic" NAME="UIServiceTest.getPatientsByLastNameForSearchTest Coverage Results" MODIFIED="1690512647123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Mediscreen$NoteControllerTest_showNotesListTest.ic" NAME="NoteControllerTest.showNotesListTest Coverage Results" MODIFIED="1690859796731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mediscreen.uiservice.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,174 @@
+2023-11-25 11:28:47.942  INFO 17964 --- [main] c.m.uiservice.UiServiceApplication       : Starting UiServiceApplication using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17964 (D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen\ui-service\target\classes started by igoro in D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen)
+2023-11-25 11:28:47.943  INFO 17964 --- [main] c.m.uiservice.UiServiceApplication       : The following 1 profile is active: "dev"
+2023-11-25 11:28:48.471  INFO 17964 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5f89798f-9268-3cb1-a509-b9cd121c4110
+2023-11-25 11:28:48.690  INFO 17964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-11-25 11:28:48.697  INFO 17964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-25 11:28:48.697  INFO 17964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-11-25 11:28:48.809  INFO 17964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-25 11:28:48.809  INFO 17964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 836 ms
+2023-11-25 11:28:49.071  INFO 17964 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-25 11:28:50.254  INFO 17964 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-11-25 11:28:50.310  INFO 17964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-11-25 11:28:51.423  INFO 17964 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-11-25 11:28:51.428  INFO 17964 --- [main] c.m.uiservice.UiServiceApplication       : Started UiServiceApplication in 5.123 seconds (JVM running for 5.747)
+2023-11-25 11:36:14.126  INFO 17964 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-25 11:36:14.127  INFO 17964 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-25 11:36:14.128  INFO 17964 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-25 11:36:16.479  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:16.580  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:22.753  INFO 17964 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:22.810  INFO 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:25.782  INFO 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:25.834  INFO 17964 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:28.361  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:28.412  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:30.699  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:30.749  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:32.893  INFO 17964 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:36:32.944  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:37:13.403  WARN 17964 --- [http-nio-8070-exec-1] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2023-11-25 11:37:13.411 ERROR 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Add patient form has errors
+2023-11-25 11:37:35.060 ERROR 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Add patient form has errors
+2023-11-25 11:37:47.676 ERROR 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Add patient form has errors
+2023-11-25 11:37:56.611 ERROR 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Add patient form has errors
+2023-11-25 11:38:33.215  WARN 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - The birth date is incorrect.
+2023-11-25 11:38:52.269  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - The patient has been created successfully.
+2023-11-25 11:38:52.283  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:38:52.337  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:38:54.866  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:38:54.913  INFO 17964 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:38:59.769  INFO 17964 --- [http-nio-8070-exec-8] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:38:59.845  INFO 17964 --- [http-nio-8070-exec-9] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:39:01.498  INFO 17964 --- [http-nio-8070-exec-10] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get add note form by patient ID
+2023-11-25 11:39:01.552  INFO 17964 --- [http-nio-8070-exec-1] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get add note form by patient ID
+2023-11-25 11:39:16.664  INFO 17964 --- [http-nio-8070-exec-2] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - The note has been created successfully.
+2023-11-25 11:39:16.695  INFO 17964 --- [http-nio-8070-exec-3] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:39:16.789  INFO 17964 --- [http-nio-8070-exec-6] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:39:22.420  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:22.468  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:33.865  WARN 17964 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. Patient not found.
+2023-11-25 11:39:33.916  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:41.145  WARN 17964 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. Patient not found.
+2023-11-25 11:39:41.191  INFO 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:43.499  INFO 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:43.547  INFO 17964 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:45.292  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:45.342  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:39:57.048  WARN 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 11:39:57.105  INFO 17964 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:10.774  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:40:10.875  INFO 17964 --- [http-nio-8070-exec-9] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:40:15.931  INFO 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:18.149  INFO 17964 --- [http-nio-8070-exec-1] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:18.213  INFO 17964 --- [http-nio-8070-exec-2] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:19.939  INFO 17964 --- [http-nio-8070-exec-3] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 11:40:19.985  INFO 17964 --- [http-nio-8070-exec-6] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 11:40:30.947  INFO 17964 --- [http-nio-8070-exec-5] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - The note has been updated successfully.
+2023-11-25 11:40:30.972  INFO 17964 --- [http-nio-8070-exec-4] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:31.039  INFO 17964 --- [http-nio-8070-exec-7] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:35.913  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:35.964  INFO 17964 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:41.361  WARN 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 11:40:41.407  INFO 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:47.638  INFO 17964 --- [http-nio-8070-exec-2] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:40:47.728  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:40:54.151  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:40:56.501  INFO 17964 --- [http-nio-8070-exec-5] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:56.564  INFO 17964 --- [http-nio-8070-exec-4] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:40:57.885  INFO 17964 --- [http-nio-8070-exec-8] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 11:40:57.922  INFO 17964 --- [http-nio-8070-exec-9] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 11:41:18.291  INFO 17964 --- [http-nio-8070-exec-10] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - The note has been updated successfully.
+2023-11-25 11:41:18.317  INFO 17964 --- [http-nio-8070-exec-1] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:41:18.385  INFO 17964 --- [http-nio-8070-exec-2] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 11:41:20.836  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:20.887  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:23.750  WARN 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. Patient not found.
+2023-11-25 11:41:23.798  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:26.336  WARN 17964 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 11:41:26.382  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:30.516  INFO 17964 --- [http-nio-8070-exec-9] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:41:30.610  INFO 17964 --- [http-nio-8070-exec-10] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 11:41:38.161  INFO 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:38.211  INFO 17964 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:45.246  WARN 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 11:41:45.293  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:41:57.554  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get update patient form by patient ID
+2023-11-25 11:41:57.598  INFO 17964 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get update patient form by patient ID
+2023-11-25 11:42:53.338  INFO 17964 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - The patient has been updated successfully.
+2023-11-25 11:42:53.347  INFO 17964 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:42:53.405  INFO 17964 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:43:00.210  WARN 17964 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 11:43:00.258  INFO 17964 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:43:41.479  INFO 17964 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Delete patient by patient ID
+2023-11-25 11:43:41.489  INFO 17964 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:43:41.548  INFO 17964 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 11:55:23.781  INFO 23576 --- [main] c.m.uiservice.UiServiceApplication       : Starting UiServiceApplication using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 23576 (D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen\ui-service\target\classes started by igoro in D:\prog_web\prog\Project 9\practice\mycode\prod\Mediscreen)
+2023-11-25 11:55:23.783  INFO 23576 --- [main] c.m.uiservice.UiServiceApplication       : The following 1 profile is active: "dev"
+2023-11-25 11:55:24.270  INFO 23576 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5f89798f-9268-3cb1-a509-b9cd121c4110
+2023-11-25 11:55:24.472  INFO 23576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-11-25 11:55:24.479  INFO 23576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-25 11:55:24.479  INFO 23576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-11-25 11:55:24.590  INFO 23576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-25 11:55:24.590  INFO 23576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 779 ms
+2023-11-25 11:55:24.830  INFO 23576 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-25 11:55:26.022  INFO 23576 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-11-25 11:55:26.074  INFO 23576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-11-25 11:55:27.183  INFO 23576 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-11-25 11:55:27.190  INFO 23576 --- [main] c.m.uiservice.UiServiceApplication       : Started UiServiceApplication in 4.87 seconds (JVM running for 5.377)
+2023-11-25 12:19:10.245  INFO 23576 --- [http-nio-8070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-25 12:19:10.245  INFO 23576 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-25 12:19:10.246  INFO 23576 --- [http-nio-8070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-25 12:19:14.910  INFO 23576 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:19:15.034  INFO 23576 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:19:33.391  WARN 23576 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 12:19:33.568  INFO 23576 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:20:12.347  WARN 23576 --- [http-nio-8070-exec-1] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2023-11-25 12:20:12.357 ERROR 23576 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Add patient form has errors
+2023-11-25 12:21:10.797  INFO 23576 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - The patient has been created successfully.
+2023-11-25 12:21:10.815  INFO 23576 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:10.941  INFO 23576 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:13.964  INFO 23576 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:14.040  INFO 23576 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:26.252  INFO 23576 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get update patient form by patient ID
+2023-11-25 12:21:26.306  INFO 23576 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get update patient form by patient ID
+2023-11-25 12:21:45.731  INFO 23576 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - The patient has been updated successfully.
+2023-11-25 12:21:45.752  INFO 23576 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:45.830  INFO 23576 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:21:56.612  WARN 23576 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 12:21:56.674  INFO 23576 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:22:09.001  INFO 23576 --- [http-nio-8070-exec-6] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:22:09.109  INFO 23576 --- [http-nio-8070-exec-7] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:22:14.066  INFO 23576 --- [http-nio-8070-exec-9] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get add note form by patient ID
+2023-11-25 12:22:14.126  INFO 23576 --- [http-nio-8070-exec-10] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get add note form by patient ID
+2023-11-25 12:22:41.490  INFO 23576 --- [http-nio-8070-exec-1] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - The note has been created successfully.
+2023-11-25 12:22:41.527  INFO 23576 --- [http-nio-8070-exec-2] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:22:41.645  INFO 23576 --- [http-nio-8070-exec-3] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:22:46.294  INFO 23576 --- [http-nio-8070-exec-4] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:22:46.365  INFO 23576 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:22:48.196  INFO 23576 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:22:48.259  INFO 23576 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:22:52.145  INFO 23576 --- [http-nio-8070-exec-8] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 12:22:52.257  INFO 23576 --- [http-nio-8070-exec-9] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 12:23:02.407  INFO 23576 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:05.189  INFO 23576 --- [http-nio-8070-exec-1] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:23:05.272  INFO 23576 --- [http-nio-8070-exec-2] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:23:07.094  INFO 23576 --- [http-nio-8070-exec-3] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 12:23:07.150  INFO 23576 --- [http-nio-8070-exec-4] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get note update form by note ID
+2023-11-25 12:23:22.118  INFO 23576 --- [http-nio-8070-exec-6] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - The note has been updated successfully.
+2023-11-25 12:23:22.150  INFO 23576 --- [http-nio-8070-exec-7] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:23:22.239  INFO 23576 --- [http-nio-8070-exec-8] c.m.uiservice.controller.NoteController  : UI-SERVICE: NoteController - Get notes list by patient ID
+2023-11-25 12:23:26.562  INFO 23576 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:26.628  INFO 23576 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:28.332  INFO 23576 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:28.387  INFO 23576 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:31.266  INFO 23576 --- [http-nio-8070-exec-3] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 12:23:31.378  INFO 23576 --- [http-nio-8070-exec-4] c.m.u.controller.ReportController        : UI-SERVICE: ReportController - Get report by patient ID
+2023-11-25 12:23:39.864  INFO 23576 --- [http-nio-8070-exec-5] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:39.929  INFO 23576 --- [http-nio-8070-exec-6] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:42.443  INFO 23576 --- [http-nio-8070-exec-7] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:42.495  INFO 23576 --- [http-nio-8070-exec-8] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:49.098  INFO 23576 --- [http-nio-8070-exec-9] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Delete patient by patient ID
+2023-11-25 12:23:49.116  INFO 23576 --- [http-nio-8070-exec-10] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:49.187  INFO 23576 --- [http-nio-8070-exec-1] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list
+2023-11-25 12:23:57.272  WARN 23576 --- [http-nio-8070-exec-2] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Search patient by last name. The search is successful.
+2023-11-25 12:23:57.343  INFO 23576 --- [http-nio-8070-exec-3] c.m.u.controller.PatientController       : UI-SERVICE: PatientController - Get patients list

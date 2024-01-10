@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mediscreen</title>
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+
+<body>
+    <div class="col-10 container-fluid">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/img/logo.png" alt="" style="height: 7em">
+                </div>
+                <div class="col-auto">
+                    <a class="navbar-brand text-black" href="/">MEDISCREEN</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row m-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100 m-0 mb-5">
+                <div class="container-fluid" style="display: flex;    justify-content: space-between;">
+                        <button class="backward-btn" data-tooltip="Return to previous page"  onclick="history.back()">
+                            <img style="width: 35px;" src="/img/fast-backward.gif"/>
+                        </button>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="/patient/list">PATIENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="note_main">
+            <div class="note" style="width: 40%;">
+                <div class="title_table">
+                    <h3 class="table-title" style="display: flex; justify-content: center; padding-bottom: 30px;">Add
+                        note</h3>
+                </div>
+                <div style="display: flex; justify-content: center; margin-bottom: 25px">
+                    <div>
+                    <strong style="font-size: 18px">Patient:</strong>
+                    <span style="font-size: 18px" th:text="${patientFirstName}"></span>
+                    <span style="font-size: 18px" th:text="${patientLastName}"></span>
+                    </div>
+                </div>
+                <div class="table">
+                    <form method="post" th:action="@{/patHistory/addNotes/{patientId}(patientId = ${noteUi.patientId})}" th:object="${noteUi}" class="form-horizontal w-100">
+                        <div class="form-group">
+                            <label for="note" class="col-sm-5 control-label"><strong style="font-size: 18px">Note</strong></label>
+                            <div class="enter_notes">
+                                <textarea type="text" th:field="*{note}" id="note" placeholder="Enter note"
+                                    class="form-control"></textarea>
+                                <p class="text-danger" th:if="${#fields.hasErrors('note')}"
+                                   th:errors="*{note}">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12" style="display: flex; justify-content: space-evenly;">
+                                <input class="btn btn-primary btn-sm" type="submit" value="Create note">
+                                <a class="btn btn-primary btn-sm" style="color: rgb(217, 255, 0);"
+                                    th:href="@{/patHistory/notes/{patientId}(patientId = ${noteUi.patientId})}">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
